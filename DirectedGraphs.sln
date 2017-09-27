@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirectedGraphEditor", "DirectedGraphEditor\DirectedGraphEditor.csproj", "{03830A61-9A29-4BEA-9A8B-15B308B73BC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirectedGraphLibWV", "DirectedGraphLibWV\DirectedGraphLibWV.csproj", "{E9B141A7-11BB-4F22-9DE2-E4399DE37D95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XEXDecompiler3", "XEXDecompiler3\XEXDecompiler3.csproj", "{E617310E-8B39-4397-B79E-A6D6BA9254DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{03830A61-9A29-4BEA-9A8B-15B308B73BC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03830A61-9A29-4BEA-9A8B-15B308B73BC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03830A61-9A29-4BEA-9A8B-15B308B73BC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03830A61-9A29-4BEA-9A8B-15B308B73BC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9B141A7-11BB-4F22-9DE2-E4399DE37D95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9B141A7-11BB-4F22-9DE2-E4399DE37D95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9B141A7-11BB-4F22-9DE2-E4399DE37D95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9B141A7-11BB-4F22-9DE2-E4399DE37D95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E617310E-8B39-4397-B79E-A6D6BA9254DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E617310E-8B39-4397-B79E-A6D6BA9254DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E617310E-8B39-4397-B79E-A6D6BA9254DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E617310E-8B39-4397-B79E-A6D6BA9254DF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
