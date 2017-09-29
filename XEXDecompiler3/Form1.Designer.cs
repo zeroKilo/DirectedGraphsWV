@@ -240,7 +240,7 @@
             // loadASMToolStripMenuItem
             // 
             this.loadASMToolStripMenuItem.Name = "loadASMToolStripMenuItem";
-            this.loadASMToolStripMenuItem.Size = new System.Drawing.Size(121, 22);
+            this.loadASMToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.loadASMToolStripMenuItem.Text = "Load ASM";
             this.loadASMToolStripMenuItem.Click += new System.EventHandler(this.loadASMToolStripMenuItem_Click);
             // 
@@ -457,7 +457,7 @@
             this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.statusStrip1);
             this.Name = "Form1";
-            this.Text = "XEX Decompiler 3";
+            this.Text = "XEX Decompiler 3 by Warranty Voider";
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.splitContainer1.Panel1.ResumeLayout(false);
