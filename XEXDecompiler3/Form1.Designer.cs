@@ -379,9 +379,7 @@
             // 
             // saveMidStepGraphsToolStripMenuItem
             // 
-            this.saveMidStepGraphsToolStripMenuItem.Checked = true;
             this.saveMidStepGraphsToolStripMenuItem.CheckOnClick = true;
-            this.saveMidStepGraphsToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Checked;
             this.saveMidStepGraphsToolStripMenuItem.Name = "saveMidStepGraphsToolStripMenuItem";
             this.saveMidStepGraphsToolStripMenuItem.Size = new System.Drawing.Size(217, 22);
             this.saveMidStepGraphsToolStripMenuItem.Text = "Save Mid Step Graphs";

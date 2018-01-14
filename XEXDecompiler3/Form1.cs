@@ -18,6 +18,14 @@ namespace XEXDecompiler3
         public Form1()
         {
             InitializeComponent();
+            string[] args = Environment.GetCommandLineArgs();
+            if (args.Length == 2)
+            {
+                Decompiler.asm = new ASMFile(args[1], pb1);
+                Decompiler.level = 0;
+                SelectStep(0);
+                RefreshStuff();
+            }
         }
 
         private void loadASMToolStripMenuItem_Click(object sender, EventArgs e)
@@ -27,8 +35,8 @@ namespace XEXDecompiler3
             if (d.ShowDialog() == System.Windows.Forms.DialogResult.OK)
             {
                 Decompiler.asm = new ASMFile(d.FileName, pb1);
-                Decompiler.level = 6;
-                SelectStep(4);
+                Decompiler.level = 0;
+                SelectStep(0);
                 RefreshStuff();
             }
         }
